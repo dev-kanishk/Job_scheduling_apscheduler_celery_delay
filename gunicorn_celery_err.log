@@ -1,0 +1,1326 @@
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 08:21:43,437: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 08:21:43,447: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 08:21:44,471: INFO/MainProcess] mingle: all alone
+[2020-06-10 08:21:44,502: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 08:23:47,499: INFO/MainProcess] Received task: try_app.task.simple_task[d286d800-c42d-470d-bb21-8b9fc7385639]  ETA:[2020-06-10 13:54:47.467530+05:30] 
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 08:24:48,193: WARNING/ForkPoolWorker-8] successfully implemented celery awsm bro
+[2020-06-10 08:24:48,199: INFO/ForkPoolWorker-8] Task try_app.task.simple_task[d286d800-c42d-470d-bb21-8b9fc7385639] succeeded in 0.006268095021368936s: None
+[2020-06-10 08:28:08,019: INFO/MainProcess] Received task: try_app.task.simple_task[b04c423e-e42b-453f-98b3-3f927227da90]  ETA:[2020-06-10 13:59:07.902963+05:30] 
+[2020-06-10 08:29:08,915: WARNING/ForkPoolWorker-8] successfully implemented celery awsm bro
+[2020-06-10 08:29:08,917: INFO/ForkPoolWorker-8] Task try_app.task.simple_task[b04c423e-e42b-453f-98b3-3f927227da90] succeeded in 0.0020462999818846583s: None
+[2020-06-10 08:33:16,012: INFO/MainProcess] Received task: try_app.task.simple_task[97251da1-6d36-41fd-9999-5ecbea7ac359]  ETA:[2020-06-10 14:04:15.940530+05:30] 
+
+worker: Warm shutdown (MainProcess)
+[2020-06-10 08:33:40,644: WARNING/MainProcess] Restoring 1 unacknowledged message(s)
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 08:33:50,471: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 08:33:50,481: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 08:33:51,500: INFO/MainProcess] mingle: all alone
+[2020-06-10 08:33:51,519: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 08:33:51,808: INFO/MainProcess] Received task: try_app.task.simple_task[97251da1-6d36-41fd-9999-5ecbea7ac359]  ETA:[2020-06-10 14:04:15.940530+05:30] 
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 08:34:16,512: WARNING/ForkPoolWorker-8] successfully implemented celery awsm bro
+[2020-06-10 08:34:16,527: INFO/ForkPoolWorker-8] Task try_app.task.simple_task[97251da1-6d36-41fd-9999-5ecbea7ac359] succeeded in 0.015289621020201594s: None
+[2020-06-10 08:35:05,124: INFO/MainProcess] Received task: try_app.task.simple_task[dc9fe6d2-3b60-470c-92aa-46c8edc0bf00]  ETA:[2020-06-10 14:06:05.119441+05:30] 
+[2020-06-10 08:36:05,206: WARNING/ForkPoolWorker-8] successfully implemented celery awsm bro
+[2020-06-10 08:36:05,208: INFO/ForkPoolWorker-8] Task try_app.task.simple_task[dc9fe6d2-3b60-470c-92aa-46c8edc0bf00] succeeded in 0.0021230209968052804s: None
+[2020-06-10 09:21:53,142: INFO/MainProcess] Received task: try_app.task.simple_task[09482c75-98bb-45aa-903a-48fb895dd6ee]  ETA:[2020-06-10 14:52:53.018901+05:30] 
+[2020-06-10 09:22:53,748: WARNING/ForkPoolWorker-8] successfully implemented celery awsm bro
+[2020-06-10 09:22:53,750: INFO/ForkPoolWorker-8] Task try_app.task.simple_task[09482c75-98bb-45aa-903a-48fb895dd6ee] succeeded in 0.0026278870063833892s: None
+[2020-06-10 09:28:17,921: ERROR/MainProcess] Received unregistered task of type 'try_app.task.send_mail_task'.
+The message has been ignored and discarded.
+
+Did you remember to import the module containing this task?
+Or maybe you're using relative imports?
+
+Please see
+http://docs.celeryq.org/en/latest/internals/protocol.html
+for more information.
+
+The full contents of the message body was:
+b'[[1], {}, {"callbacks": null, "errbacks": null, "chain": null, "chord": null}]' (78b)
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/worker/consumer/consumer.py", line 562, in on_task_received
+    strategy = strategies[type_]
+KeyError: 'try_app.task.send_mail_task'
+
+worker: Warm shutdown (MainProcess)
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 09:29:39,212: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 09:29:39,220: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 09:29:40,239: INFO/MainProcess] mingle: all alone
+[2020-06-10 09:29:40,256: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 09:29:40,256: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 09:30:04,459: INFO/MainProcess] Received task: try_app.task.send_mail_task[a96f7994-b6df-4ab1-bdcd-381b500d2a66]  ETA:[2020-06-10 15:01:04.399341+05:30] 
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 09:31:04,421: ERROR/ForkPoolWorker-8] Task try_app.task.send_mail_task[a96f7994-b6df-4ab1-bdcd-381b500d2a66] raised unexpected: TypeError('can only concatenate str (not "int") to str')
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 385, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 650, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 19, in send_mail_task
+    print("email with pk "+ pk +" send successfully")
+TypeError: can only concatenate str (not "int") to str
+[2020-06-10 09:32:00,300: INFO/MainProcess] Received task: try_app.task.send_mail_task[98f070d3-48f4-4cb7-8d87-859505861a7d]  ETA:[2020-06-10 15:03:00.050493+05:30] 
+[2020-06-10 09:33:00,324: ERROR/ForkPoolWorker-8] Task try_app.task.send_mail_task[98f070d3-48f4-4cb7-8d87-859505861a7d] raised unexpected: TypeError('can only concatenate str (not "int") to str')
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 385, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 650, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 19, in send_mail_task
+    print("email with pk ", pk ," send successfully")
+TypeError: can only concatenate str (not "int") to str
+[2020-06-10 10:08:04,125: INFO/MainProcess] Received task: try_app.task.send_mail_task[d211990a-66ec-4e40-a37a-52e5484c9299]  ETA:[2020-06-10 15:39:03.927540+05:30] 
+[2020-06-10 10:09:04,334: ERROR/ForkPoolWorker-8] Task try_app.task.send_mail_task[d211990a-66ec-4e40-a37a-52e5484c9299] raised unexpected: TypeError('can only concatenate str (not "int") to str')
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 385, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 650, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 19, in send_mail_task
+    print( pk )
+TypeError: can only concatenate str (not "int") to str
+
+worker: Warm shutdown (MainProcess)
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 10:12:34,355: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 10:12:34,366: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 10:12:35,398: INFO/MainProcess] mingle: all alone
+[2020-06-10 10:12:35,417: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 10:12:35,418: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 10:19:44,832: INFO/MainProcess] Received task: try_app.task.send_mail_task[b15bd92b-7785-4ecd-9c45-6d4c84adec29]  ETA:[2020-06-10 15:50:44.641171+05:30] 
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 10:20:45,468: WARNING/ForkPoolWorker-8] 13
+[2020-06-10 10:20:45,474: INFO/ForkPoolWorker-8] Task try_app.task.send_mail_task[b15bd92b-7785-4ecd-9c45-6d4c84adec29] succeeded in 0.03326101100537926s: None
+[2020-06-10 10:23:35,450: INFO/MainProcess] Received task: try_app.task.send_mail_task[856adfaa-cc6b-4270-9248-de8e45eef8c2]  ETA:[2020-06-10 15:54:35.434653+05:30] 
+
+worker: Warm shutdown (MainProcess)
+[2020-06-10 10:23:44,529: WARNING/MainProcess] Restoring 1 unacknowledged message(s)
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 10:23:48,287: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 10:23:48,295: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 10:23:49,317: INFO/MainProcess] mingle: all alone
+[2020-06-10 10:23:49,339: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 10:23:49,339: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 10:23:49,498: INFO/MainProcess] Received task: try_app.task.send_mail_task[856adfaa-cc6b-4270-9248-de8e45eef8c2]  ETA:[2020-06-10 15:54:35.434653+05:30] 
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 10:24:35,671: WARNING/ForkPoolWorker-8] <class 'int'>
+[2020-06-10 10:24:35,672: WARNING/ForkPoolWorker-8] Success Email send
+[2020-06-10 10:24:35,675: INFO/ForkPoolWorker-8] Task try_app.task.send_mail_task[856adfaa-cc6b-4270-9248-de8e45eef8c2] succeeded in 0.017673246009508148s: None
+[2020-06-10 10:30:53,395: INFO/MainProcess] Received task: try_app.task.send_mail_task[3bbda72b-84aa-4f0c-b895-87ae6bf19296]  ETA:[2020-06-10 16:01:53.032895+05:30] 
+
+worker: Warm shutdown (MainProcess)
+[2020-06-10 10:31:04,547: WARNING/MainProcess] Restoring 1 unacknowledged message(s)
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 10:31:11,309: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 10:31:11,320: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 10:31:12,340: INFO/MainProcess] mingle: all alone
+[2020-06-10 10:31:12,353: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 10:31:12,353: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 10:31:12,423: INFO/MainProcess] Received task: try_app.task.send_mail_task[3bbda72b-84aa-4f0c-b895-87ae6bf19296]  ETA:[2020-06-10 16:01:53.032895+05:30] 
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 10:31:53,187: WARNING/ForkPoolWorker-8] 15
+[2020-06-10 10:31:53,187: WARNING/ForkPoolWorker-8] Success Email send
+[2020-06-10 10:31:53,192: INFO/ForkPoolWorker-8] Task try_app.task.send_mail_task[3bbda72b-84aa-4f0c-b895-87ae6bf19296] succeeded in 0.017302997992374003s: None
+
+worker: Warm shutdown (MainProcess)
+Error: 
+Unable to load celery application.
+The module proj was not found.
+
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 10:39:19,833: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 10:39:19,841: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 10:39:20,863: INFO/MainProcess] mingle: all alone
+[2020-06-10 10:39:20,877: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 10:39:20,877: INFO/MainProcess] celery@kanishk-XPS ready.
+Error: 
+Unable to load celery application.
+The module proj was not found.
+
+Error: 
+Unable to load celery application.
+The module proj was not found.
+
+Error: 
+Unable to load celery application.
+The module proj was not found.
+
+
+worker: Warm shutdown (MainProcess)
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 10:40:29,356: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 10:40:29,366: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 10:40:30,386: INFO/MainProcess] mingle: all alone
+[2020-06-10 10:40:30,414: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 10:40:30,414: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 10:41:33,923: INFO/MainProcess] Received task: try_app.task.send_mail_task[3311015a-8e34-4ff1-8406-e9c5eec71b6b]  ETA:[2020-06-10 16:12:33.886431+05:30] 
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 10:42:34,393: WARNING/ForkPoolWorker-8] 16
+[2020-06-10 10:42:34,394: WARNING/ForkPoolWorker-8] Success Email send
+[2020-06-10 10:42:34,400: INFO/ForkPoolWorker-8] Task try_app.task.send_mail_task[3311015a-8e34-4ff1-8406-e9c5eec71b6b] succeeded in 0.0323702440073248s: None
+
+worker: Warm shutdown (MainProcess)
+usage: celery purge [options] 
+celery: error: unrecognized arguments: worker -l info
+usage: celery purge [options] 
+celery: error: unrecognized arguments: worker -l info
+usage: celery purge [options] 
+celery: error: unrecognized arguments: worker -l info
+usage: celery purge [options] 
+celery: error: unrecognized arguments: worker -l info
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 10:53:55,289: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 10:53:55,298: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 10:53:56,320: INFO/MainProcess] mingle: all alone
+[2020-06-10 10:53:56,337: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 10:53:56,337: INFO/MainProcess] celery@kanishk-XPS ready.
+
+worker: Warm shutdown (MainProcess)
+sh: 1: celery: not found
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 11:10:53,796: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 11:10:53,822: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 11:10:54,869: INFO/MainProcess] mingle: all alone
+[2020-06-10 11:10:54,895: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 11:10:54,895: INFO/MainProcess] celery@kanishk-XPS ready.
+sh: 1: celery: not found
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 11:12:41,587: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 11:12:41,602: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 11:12:42,633: INFO/MainProcess] mingle: all alone
+[2020-06-10 11:12:42,641: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 11:12:42,641: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 11:15:42,637: INFO/MainProcess] Received task: try_app.task.send_mail_task[3018c2a4-d1e5-47bf-9b9c-1715d0dfff26]  ETA:[2020-06-10 16:46:42.452570+05:30] 
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 11:16:42,474: WARNING/ForkPoolWorker-8] 17
+[2020-06-10 11:16:42,474: WARNING/ForkPoolWorker-8] Success Email send
+[2020-06-10 11:16:42,478: INFO/ForkPoolWorker-8] Task try_app.task.send_mail_task[3018c2a4-d1e5-47bf-9b9c-1715d0dfff26] succeeded in 0.01870884199999523s: None
+[2020-06-10 11:17:26,338: INFO/MainProcess] Received task: try_app.task.send_mail_task[e296cfd3-8c06-4460-9149-271431910bf3]  ETA:[2020-06-10 16:48:26.311199+05:30] 
+
+worker: Warm shutdown (MainProcess)
+[2020-06-10 11:17:50,432: WARNING/MainProcess] Restoring 1 unacknowledged message(s)
+sh: 1: celery: not found
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 11:18:03,058: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 11:18:03,071: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 11:18:04,094: INFO/MainProcess] mingle: all alone
+[2020-06-10 11:18:04,110: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 11:18:04,110: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 11:18:04,311: INFO/MainProcess] Received task: try_app.task.send_mail_task[e296cfd3-8c06-4460-9149-271431910bf3]  ETA:[2020-06-10 16:48:26.311199+05:30] 
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 11:18:27,267: WARNING/ForkPoolWorker-8] 18
+[2020-06-10 11:18:27,267: WARNING/ForkPoolWorker-8] Success Email send
+[2020-06-10 11:18:27,271: INFO/ForkPoolWorker-8] Task try_app.task.send_mail_task[e296cfd3-8c06-4460-9149-271431910bf3] succeeded in 0.016766977999964183s: None
+
+worker: Warm shutdown (MainProcess)
+sh: 1: celery: not found
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 11:23:46,564: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 11:23:46,574: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 11:23:47,598: INFO/MainProcess] mingle: all alone
+[2020-06-10 11:23:47,617: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 11:23:47,617: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 11:23:47,818: INFO/MainProcess] Received task: try_app.task.send_mail_task[579dc68f-330d-41f3-b536-31dc38a40be3]  ETA:[2020-06-10 16:54:36.336268+05:30] 
+
+worker: Warm shutdown (MainProcess)
+[2020-06-10 11:24:09,837: WARNING/MainProcess] Restoring 1 unacknowledged message(s)
+sh: 1: celery: not found
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 11:24:16,930: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 11:24:16,938: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 11:24:17,959: INFO/MainProcess] mingle: all alone
+[2020-06-10 11:24:17,987: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 11:24:17,987: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 11:24:18,228: INFO/MainProcess] Received task: try_app.task.send_mail_task[579dc68f-330d-41f3-b536-31dc38a40be3]  ETA:[2020-06-10 16:54:36.336268+05:30] 
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 11:24:36,887: WARNING/ForkPoolWorker-8] 19
+[2020-06-10 11:24:36,888: WARNING/ForkPoolWorker-8] Success Email send
+[2020-06-10 11:24:36,893: INFO/ForkPoolWorker-8] Task try_app.task.send_mail_task[579dc68f-330d-41f3-b536-31dc38a40be3] succeeded in 0.029004937000081554s: None
+
+worker: Warm shutdown (MainProcess)
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 11:35:00,612: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 11:35:00,622: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 11:35:01,641: INFO/MainProcess] mingle: all alone
+[2020-06-10 11:35:01,654: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 11:35:01,654: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 11:35:47,024: INFO/MainProcess] Received task: try_app.task.send_mail_task[6597376a-58b0-4738-9fcd-b7883565b842]  ETA:[2020-06-10 17:06:46.757195+05:30] 
+
+worker: Warm shutdown (MainProcess)
+[2020-06-10 11:36:33,614: WARNING/MainProcess] Restoring 1 unacknowledged message(s)
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 11:36:44,043: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 11:36:44,051: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 11:36:45,071: INFO/MainProcess] mingle: all alone
+[2020-06-10 11:36:45,084: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 11:36:45,084: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 11:36:45,361: INFO/MainProcess] Received task: try_app.task.send_mail_task[6597376a-58b0-4738-9fcd-b7883565b842]  ETA:[2020-06-10 17:06:46.757195+05:30] 
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 11:36:47,108: WARNING/ForkPoolWorker-8] 20
+[2020-06-10 11:36:47,109: WARNING/ForkPoolWorker-8] Success Email send
+[2020-06-10 11:36:47,118: INFO/ForkPoolWorker-8] Task try_app.task.send_mail_task[6597376a-58b0-4738-9fcd-b7883565b842] succeeded in 0.03369527400013794s: None
+[2020-06-10 11:38:12,581: INFO/MainProcess] Received task: try_app.task.send_mail_task[1c41eadb-3362-411c-be3e-ac75b8a5b1c9]  ETA:[2020-06-10 17:09:12.119496+05:30] 
+
+worker: Warm shutdown (MainProcess)
+[2020-06-10 11:38:19,867: WARNING/MainProcess] Restoring 1 unacknowledged message(s)
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 11:38:24,121: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 11:38:24,129: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 11:38:25,149: INFO/MainProcess] mingle: all alone
+[2020-06-10 11:38:25,162: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 11:38:25,162: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 11:38:25,534: INFO/MainProcess] Received task: try_app.task.send_mail_task[1c41eadb-3362-411c-be3e-ac75b8a5b1c9]  ETA:[2020-06-10 17:09:12.119496+05:30] 
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 11:39:12,431: WARNING/ForkPoolWorker-8] 21
+[2020-06-10 11:39:12,432: WARNING/ForkPoolWorker-8] Success Email send
+[2020-06-10 11:39:12,435: INFO/ForkPoolWorker-8] Task try_app.task.send_mail_task[1c41eadb-3362-411c-be3e-ac75b8a5b1c9] succeeded in 0.02322656100000131s: None
+
+worker: Warm shutdown (MainProcess)
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 11:41:29,635: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 11:41:29,644: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 11:41:30,664: INFO/MainProcess] mingle: all alone
+[2020-06-10 11:41:30,687: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 11:41:30,687: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 11:41:53,820: INFO/MainProcess] Received task: try_app.task.send_mail_task[4c3077f6-9095-4eac-89f3-ff5a3b7a3b4d]  ETA:[2020-06-10 17:12:53.556363+05:30] 
+
+worker: Warm shutdown (MainProcess)
+[2020-06-10 11:42:10,157: WARNING/MainProcess] Restoring 1 unacknowledged message(s)
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 11:42:24,910: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 11:42:24,919: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 11:42:25,938: INFO/MainProcess] mingle: all alone
+[2020-06-10 11:42:25,963: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 11:42:25,963: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 11:42:26,262: INFO/MainProcess] Received task: try_app.task.send_mail_task[4c3077f6-9095-4eac-89f3-ff5a3b7a3b4d]  ETA:[2020-06-10 17:12:53.556363+05:30] 
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 11:42:57,461: WARNING/ForkPoolWorker-8] 22
+[2020-06-10 11:42:57,462: WARNING/ForkPoolWorker-8] Success Email send
+[2020-06-10 11:42:57,475: INFO/ForkPoolWorker-8] Task try_app.task.send_mail_task[4c3077f6-9095-4eac-89f3-ff5a3b7a3b4d] succeeded in 3.744863850999991s: None
+
+worker: Warm shutdown (MainProcess)
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 11:47:28,704: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 11:47:28,712: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 11:47:29,733: INFO/MainProcess] mingle: all alone
+[2020-06-10 11:47:29,748: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 11:47:29,748: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 11:47:38,456: INFO/MainProcess] Received task: try_app.task.send_mail_task[732756cb-43f6-4705-9222-31228beeb6ed]  ETA:[2020-06-10 17:18:38.306615+05:30] 
+
+worker: Warm shutdown (MainProcess)
+[2020-06-10 11:47:46,902: WARNING/MainProcess] Restoring 1 unacknowledged message(s)
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 12:23:31,981: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 12:23:32,006: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 12:23:33,031: INFO/MainProcess] mingle: all alone
+[2020-06-10 12:23:33,044: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 12:23:33,044: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 12:23:33,206: INFO/MainProcess] Received task: try_app.task.send_mail_task[732756cb-43f6-4705-9222-31228beeb6ed]  ETA:[2020-06-10 17:18:38.306615+05:30] 
+[2020-06-10 12:23:33,207: INFO/MainProcess] Received task: try_app.task.send_mail_task[59aa66ff-b915-4048-a2f7-245103eaf646]  
+[2020-06-10 12:23:33,208: INFO/MainProcess] Received task: try_app.task.send_mail_task[3da36dc7-abcb-4b1d-8d92-fc98f6301b53]  
+[2020-06-10 12:23:33,210: INFO/MainProcess] Received task: try_app.task.send_mail_task[a373927d-e3dd-41ad-98fe-652dc77bc129]  
+[2020-06-10 12:23:33,213: INFO/MainProcess] Received task: try_app.task.send_mail_task[1d5d694d-5401-4628-a18b-0674633c6251]  
+[2020-06-10 12:23:33,214: INFO/MainProcess] Received task: try_app.task.send_mail_task[3f6ca342-5f45-4ad5-a7a0-295370c90b9b]  
+[2020-06-10 12:23:33,216: INFO/MainProcess] Received task: try_app.task.send_mail_task[d297fc1f-460b-495b-a5b3-31b64ba622fb]  
+[2020-06-10 12:23:33,218: INFO/MainProcess] Received task: try_app.task.send_mail_task[4e382c0a-2a7e-4400-a658-6f3df3422905]  
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 12:23:33,220: ERROR/ForkPoolWorker-2] Task try_app.task.send_mail_task[3da36dc7-abcb-4b1d-8d92-fc98f6301b53] raised unexpected: TypeError("int() argument must be a string, a bytes-like object or a number, not 'list'")
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 385, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 650, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 16, in send_mail_task
+    Email_request = EmailSchedule.objects.get(pk=pk)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 399, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1315, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 966, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 12:23:33,223: ERROR/ForkPoolWorker-4] Task try_app.task.send_mail_task[1d5d694d-5401-4628-a18b-0674633c6251] raised unexpected: TypeError("int() argument must be a string, a bytes-like object or a number, not 'list'")
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 385, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 650, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 16, in send_mail_task
+    Email_request = EmailSchedule.objects.get(pk=pk)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 399, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1315, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 966, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 12:23:33,224: ERROR/ForkPoolWorker-3] Task try_app.task.send_mail_task[a373927d-e3dd-41ad-98fe-652dc77bc129] raised unexpected: TypeError("int() argument must be a string, a bytes-like object or a number, not 'list'")
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 385, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 650, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 16, in send_mail_task
+    Email_request = EmailSchedule.objects.get(pk=pk)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 399, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1315, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 966, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 12:23:33,226: ERROR/ForkPoolWorker-1] Task try_app.task.send_mail_task[59aa66ff-b915-4048-a2f7-245103eaf646] raised unexpected: TypeError("int() argument must be a string, a bytes-like object or a number, not 'list'")
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 385, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 650, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 16, in send_mail_task
+    Email_request = EmailSchedule.objects.get(pk=pk)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 399, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1315, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 966, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 12:23:33,228: ERROR/ForkPoolWorker-5] Task try_app.task.send_mail_task[3f6ca342-5f45-4ad5-a7a0-295370c90b9b] raised unexpected: TypeError("int() argument must be a string, a bytes-like object or a number, not 'list'")
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 385, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 650, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 16, in send_mail_task
+    Email_request = EmailSchedule.objects.get(pk=pk)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 399, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1315, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 966, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 12:23:33,228: ERROR/ForkPoolWorker-6] Task try_app.task.send_mail_task[d297fc1f-460b-495b-a5b3-31b64ba622fb] raised unexpected: TypeError("int() argument must be a string, a bytes-like object or a number, not 'list'")
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 385, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 650, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 16, in send_mail_task
+    Email_request = EmailSchedule.objects.get(pk=pk)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 399, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1315, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 966, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 12:23:33,231: WARNING/ForkPoolWorker-8] 23
+[2020-06-10 12:23:33,231: WARNING/ForkPoolWorker-8] Success Email send
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 12:23:33,231: ERROR/ForkPoolWorker-7] Task try_app.task.send_mail_task[4e382c0a-2a7e-4400-a658-6f3df3422905] raised unexpected: TypeError("int() argument must be a string, a bytes-like object or a number, not 'list'")
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 385, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 650, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 16, in send_mail_task
+    Email_request = EmailSchedule.objects.get(pk=pk)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 399, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1315, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 966, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+[2020-06-10 12:23:33,234: INFO/ForkPoolWorker-8] Task try_app.task.send_mail_task[732756cb-43f6-4705-9222-31228beeb6ed] succeeded in 0.02450572399993689s: None
+[2020-06-10 12:23:35,861: INFO/MainProcess] Received task: try_app.task.send_mail_task[e1e04d6a-e844-4575-b35c-945cdabd140d]  
+[2020-06-10 12:23:35,866: ERROR/ForkPoolWorker-8] Task try_app.task.send_mail_task[e1e04d6a-e844-4575-b35c-945cdabd140d] raised unexpected: TypeError("int() argument must be a string, a bytes-like object or a number, not 'list'")
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 385, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 650, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 16, in send_mail_task
+    Email_request = EmailSchedule.objects.get(pk=pk)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 399, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1315, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 966, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+[2020-06-10 12:24:55,701: INFO/MainProcess] Received task: try_app.task.send_mail_task[be9149d9-bae0-44a1-91c4-95ac23bfa866]  
+[2020-06-10 12:24:55,705: ERROR/ForkPoolWorker-8] Task try_app.task.send_mail_task[be9149d9-bae0-44a1-91c4-95ac23bfa866] raised unexpected: TypeError("int() argument must be a string, a bytes-like object or a number, not 'list'")
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 385, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 650, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 16, in send_mail_task
+    Email_request = EmailSchedule.objects.get(pk=pk)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 399, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1315, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 966, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+
+worker: Warm shutdown (MainProcess)
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 12:34:26,042: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 12:34:26,050: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 12:34:27,070: INFO/MainProcess] mingle: all alone
+[2020-06-10 12:34:27,096: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 12:34:27,096: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 13:00:26,576: INFO/MainProcess] Received task: try_app.task.simple_task[19b78dc8-7813-49d1-bbf5-462c15e51d78]  
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 13:00:26,617: WARNING/ForkPoolWorker-8] successfully implemented celery awsm bro
+[2020-06-10 13:00:26,696: INFO/ForkPoolWorker-8] Task try_app.task.simple_task[19b78dc8-7813-49d1-bbf5-462c15e51d78] succeeded in 0.0883150019999448s: None
+[2020-06-10 13:02:40,039: INFO/MainProcess] Received task: try_app.task.simple_task[2ad13de8-0e35-48f6-87e7-23968bf3c8aa]  
+[2020-06-10 13:02:40,044: WARNING/ForkPoolWorker-8] successfully implemented celery awsm bro
+[2020-06-10 13:02:40,047: INFO/ForkPoolWorker-8] Task try_app.task.simple_task[2ad13de8-0e35-48f6-87e7-23968bf3c8aa] succeeded in 0.004137738999816065s: None
+[2020-06-10 13:03:40,155: INFO/MainProcess] Received task: try_app.task.simple_task[35e06858-5ec1-46cd-a4d2-d6ea4dd09349]  
+[2020-06-10 13:03:40,160: WARNING/ForkPoolWorker-8] successfully implemented celery awsm bro
+[2020-06-10 13:03:40,163: INFO/ForkPoolWorker-8] Task try_app.task.simple_task[35e06858-5ec1-46cd-a4d2-d6ea4dd09349] succeeded in 0.0032620290003251284s: None
+
+worker: Warm shutdown (MainProcess)
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 13:53:48,312: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 13:53:48,321: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 13:53:49,339: INFO/MainProcess] mingle: all alone
+[2020-06-10 13:53:49,395: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 13:53:49,395: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 13:54:30,233: INFO/MainProcess] Received task: try_app.task.simple_task[70e6d615-988a-4ff4-9a3d-a8f00406633f]  
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 13:54:30,234: WARNING/ForkPoolWorker-8] <class 'list'>
+[2020-06-10 13:54:30,243: ERROR/ForkPoolWorker-8] Task try_app.task.simple_task[70e6d615-988a-4ff4-9a3d-a8f00406633f] raised unexpected: TypeError("int() argument must be a string, a bytes-like object or a number, not 'list'")
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 385, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 650, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 15, in simple_task
+    email = EmailSchedule.objects.get(pk = pk)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 399, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1315, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 966, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+[2020-06-10 13:56:17,044: INFO/MainProcess] Received task: try_app.task.simple_task[7b822678-011f-4784-ad3d-6ef70ea04df8]  
+[2020-06-10 13:56:17,045: WARNING/ForkPoolWorker-8] <class 'list'>
+[2020-06-10 13:56:17,046: ERROR/ForkPoolWorker-8] Task try_app.task.simple_task[7b822678-011f-4784-ad3d-6ef70ea04df8] raised unexpected: TypeError("int() argument must be a string, a bytes-like object or a number, not 'list'")
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 385, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 650, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 15, in simple_task
+    email = EmailSchedule.objects.get(pk = pk)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 399, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1315, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 966, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+[2020-06-10 13:57:21,595: INFO/MainProcess] Received task: try_app.task.simple_task[6c8f703b-b6cc-4427-9993-d165236fca8e]  
+[2020-06-10 13:57:21,595: WARNING/ForkPoolWorker-8] <class 'list'>
+[2020-06-10 13:57:21,597: ERROR/ForkPoolWorker-8] Task try_app.task.simple_task[6c8f703b-b6cc-4427-9993-d165236fca8e] raised unexpected: TypeError("int() argument must be a string, a bytes-like object or a number, not 'list'")
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 385, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 650, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 15, in simple_task
+    email = EmailSchedule.objects.get(pk = pk)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 399, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1315, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 966, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+[2020-06-10 13:58:21,979: INFO/MainProcess] Received task: try_app.task.simple_task[6c833ddf-c47d-4ba4-b1a8-22b5d1cfe36d]  
+[2020-06-10 13:58:21,980: WARNING/ForkPoolWorker-8] <class 'list'>
+[2020-06-10 13:58:21,981: ERROR/ForkPoolWorker-8] Task try_app.task.simple_task[6c833ddf-c47d-4ba4-b1a8-22b5d1cfe36d] raised unexpected: TypeError("int() argument must be a string, a bytes-like object or a number, not 'list'")
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 385, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 650, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 15, in simple_task
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 399, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1315, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 966, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+[2020-06-10 13:59:06,822: INFO/MainProcess] Received task: try_app.task.simple_task[7c8e44d8-e1a6-4082-bb06-733b8ff72592]  
+[2020-06-10 13:59:06,823: WARNING/ForkPoolWorker-8] <class 'list'>
+[2020-06-10 13:59:06,830: ERROR/ForkPoolWorker-8] Task try_app.task.simple_task[7c8e44d8-e1a6-4082-bb06-733b8ff72592] raised unexpected: TypeError("int() argument must be a string, a bytes-like object or a number, not 'list'")
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 385, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 650, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 15, in simple_task
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 399, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1315, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 966, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+[2020-06-10 13:59:53,209: INFO/MainProcess] Received task: try_app.task.simple_task[f77de211-be92-4fb7-b34b-454c714de736]  
+[2020-06-10 13:59:53,210: WARNING/ForkPoolWorker-8] <class 'list'>
+[2020-06-10 13:59:53,211: ERROR/ForkPoolWorker-8] Task try_app.task.simple_task[f77de211-be92-4fb7-b34b-454c714de736] raised unexpected: TypeError("int() argument must be a string, a bytes-like object or a number, not 'list'")
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 385, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/trace.py", line 650, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 15, in simple_task
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 399, in get
+    clone = self.filter(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 892, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/query.py", line 910, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1290, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1315, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1251, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/sql/query.py", line 1116, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 20, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/lookups.py", line 70, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/django/db/models/fields/__init__.py", line 966, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'list'
+
+worker: Warm shutdown (MainProcess)
+Job "simple_task (trigger: date[2020-06-10 19:30:20 IST], next run at: 2020-06-10 19:30:20 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/local.py", line 191, in __call__
+    return self._get_current_object()(*a, **kw)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/task.py", line 392, in __call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 13, in simple_task
+    email = EmailSchedule.objects.get(pk = pk[0])
+TypeError: 'int' object is not subscriptable
+Job "simple_task (trigger: date[2020-06-10 19:30:20 IST], next run at: 2020-06-10 19:30:20 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/local.py", line 191, in __call__
+    return self._get_current_object()(*a, **kw)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/task.py", line 392, in __call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 13, in simple_task
+    email = EmailSchedule.objects.get(pk = pk[0])
+TypeError: 'int' object is not subscriptable
+Job "simple_task (trigger: date[2020-06-10 19:30:20 IST], next run at: 2020-06-10 19:30:20 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/local.py", line 191, in __call__
+    return self._get_current_object()(*a, **kw)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/task.py", line 392, in __call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 13, in simple_task
+    email = EmailSchedule.objects.get(pk = pk[0])
+TypeError: 'int' object is not subscriptable
+Job "simple_task (trigger: date[2020-06-10 19:30:20 IST], next run at: 2020-06-10 19:30:20 IST)" raised an exception
+Traceback (most recent call last):
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/apscheduler/executors/base.py", line 125, in run_job
+    retval = job.func(*job.args, **job.kwargs)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/local.py", line 191, in __call__
+    return self._get_current_object()(*a, **kw)
+  File "/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/app/task.py", line 392, in __call__
+    return self.run(*args, **kwargs)
+  File "/home/kanishk/Documents/practice_django/try_celery/try_app/task.py", line 13, in simple_task
+    email = EmailSchedule.objects.get(pk = pk[0])
+TypeError: 'int' object is not subscriptable
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 14:00:21,171: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 14:00:21,179: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 14:00:22,199: INFO/MainProcess] mingle: all alone
+[2020-06-10 14:00:22,247: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 14:00:22,247: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 14:00:39,708: INFO/MainProcess] Received task: try_app.task.simple_task[171a0da5-ce5b-4fdb-aa30-e3088d775684]  
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 14:00:39,712: WARNING/ForkPoolWorker-8] [90]
+[2020-06-10 14:00:39,723: WARNING/ForkPoolWorker-8] successfully implemented schedule
+[2020-06-10 14:00:39,727: INFO/ForkPoolWorker-8] Task try_app.task.simple_task[171a0da5-ce5b-4fdb-aa30-e3088d775684] succeeded in 0.015657900999940466s: None
+[2020-06-10 14:01:11,516: INFO/MainProcess] Received task: try_app.task.simple_task[3b29e42a-ec1c-4c46-96d1-2df63fddd0cd]  
+[2020-06-10 14:01:11,519: WARNING/ForkPoolWorker-8] [91]
+[2020-06-10 14:01:11,532: WARNING/ForkPoolWorker-8] successfully implemented schedule
+[2020-06-10 14:01:11,532: INFO/ForkPoolWorker-8] Task try_app.task.simple_task[3b29e42a-ec1c-4c46-96d1-2df63fddd0cd] succeeded in 0.013860971999747562s: None
+[2020-06-10 14:02:06,394: INFO/MainProcess] Received task: try_app.task.simple_task[d9ab29f3-4a7c-4598-a0f3-56f4a66425a1]  
+[2020-06-10 14:02:06,396: WARNING/ForkPoolWorker-8] [92]
+[2020-06-10 14:02:06,402: WARNING/ForkPoolWorker-8] successfully implemented schedule
+[2020-06-10 14:02:06,403: INFO/ForkPoolWorker-8] Task try_app.task.simple_task[d9ab29f3-4a7c-4598-a0f3-56f4a66425a1] succeeded in 0.007514929000535631s: None
+[2020-06-10 14:02:30,046: INFO/MainProcess] Received task: try_app.task.simple_task[37b25033-0773-4bc1-931c-5646a5f17241]  
+[2020-06-10 14:02:30,050: WARNING/ForkPoolWorker-8] [93]
+[2020-06-10 14:02:30,064: WARNING/ForkPoolWorker-8] successfully implemented schedule
+[2020-06-10 14:02:30,066: INFO/ForkPoolWorker-8] Task try_app.task.simple_task[37b25033-0773-4bc1-931c-5646a5f17241] succeeded in 0.01673753199975181s: None
+[2020-06-10 14:03:56,959: INFO/MainProcess] Received task: try_app.task.simple_task[ddd33bee-a6ed-4dcc-bbf0-2a615ae91f70]  
+[2020-06-10 14:03:56,961: WARNING/ForkPoolWorker-8] [94]
+[2020-06-10 14:03:56,968: WARNING/ForkPoolWorker-8] successfully implemented schedule
+[2020-06-10 14:03:56,969: INFO/ForkPoolWorker-8] Task try_app.task.simple_task[ddd33bee-a6ed-4dcc-bbf0-2a615ae91f70] succeeded in 0.007696651000514976s: None
+
+worker: Warm shutdown (MainProcess)
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 14:08:09,176: INFO/MainProcess] Connected to redis://localhost:6379//
+[2020-06-10 14:08:09,185: INFO/MainProcess] mingle: searching for neighbors
+[2020-06-10 14:08:10,205: INFO/MainProcess] mingle: all alone
+[2020-06-10 14:08:10,243: WARNING/MainProcess] /home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2020-06-10 14:08:10,243: INFO/MainProcess] celery@kanishk-XPS ready.
+[2020-06-10 14:09:17,494: INFO/MainProcess] Received task: try_app.task.simple_task[941686c1-1746-4616-bcdf-0bc16c73fc94]  
+/home/kanishk/Documents/practice_django/env/lib/python3.8/site-packages/celery/platforms.py:800: RuntimeWarning: You're running the worker with superuser privileges: this is
+absolutely not recommended!
+
+Please specify a different user using the --uid option.
+
+User information: uid=0 euid=0 gid=0 egid=0
+
+  warnings.warn(RuntimeWarning(ROOT_DISCOURAGED.format(
+[2020-06-10 14:09:17,495: WARNING/ForkPoolWorker-8] [96]
+[2020-06-10 14:09:17,503: WARNING/ForkPoolWorker-8] successfully implemented schedule
+[2020-06-10 14:09:17,507: INFO/ForkPoolWorker-8] Task try_app.task.simple_task[941686c1-1746-4616-bcdf-0bc16c73fc94] succeeded in 0.012160430000221822s: None

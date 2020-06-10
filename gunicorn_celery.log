@@ -1,0 +1,833 @@
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 08:21:43
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7f7bb9d85310
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 08:33:50
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7ff3369ec310
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 09:29:38
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7f3108acd310
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.send_mail_task
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 10:12:34
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7fe8ab6d4310
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.send_mail_task
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 10:23:48
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7fb121e5a310
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.send_mail_task
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 10:31:11
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7fdfb2b49310
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.send_mail_task
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 10:39:19
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7f3e0c704340
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.send_mail_task
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+WARNING: This will remove all tasks from queue: celery.
+         There is no undo for this operation!
+
+(to skip this prompt use the -f option)
+
+Are you sure you want to delete all tasks (yes/NO)?  
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 10:40:29
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7f680e1c2340
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.send_mail_task
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+usage: celery <command> [options] 
+
+Show help screen and exit.
+
+positional arguments:
+  args
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+
+Global Options:
+  -A APP, --app APP
+  -b BROKER, --broker BROKER
+  --result-backend RESULT_BACKEND
+  --loader LOADER
+  --config CONFIG
+  --workdir WORKDIR
+  --no-color, -C
+  --quiet, -q
+
+---- -- - - ---- Commands- -------------- --- ------------
+
++ Main: 
+|    celery worker
+|    celery events
+|    celery beat
+|    celery shell
+|    celery multi
+|    celery amqp
+
++ Remote Control: 
+|    celery status
+ 
+|    celery inspect --help
+|    celery inspect active 
+|    celery inspect active_queues 
+|    celery inspect clock 
+|    celery inspect conf [include_defaults=False]
+|    celery inspect memdump [n_samples=10]
+|    celery inspect memsample 
+|    celery inspect objgraph [object_type=Request] [num=200 [max_depth=10]]
+|    celery inspect ping 
+|    celery inspect query_task [id1 [id2 [... [idN]]]]
+|    celery inspect registered [attr1 [attr2 [... [attrN]]]]
+|    celery inspect report 
+|    celery inspect reserved 
+|    celery inspect revoked 
+|    celery inspect scheduled 
+|    celery inspect stats 
+ 
+|    celery control --help
+|    celery control add_consumer <queue> [exchange [type [routing_key]]]
+|    celery control autoscale [max [min]]
+|    celery control cancel_consumer <queue>
+|    celery control disable_events 
+|    celery control election 
+|    celery control enable_events 
+|    celery control heartbeat 
+|    celery control pool_grow [N=1]
+|    celery control pool_restart 
+|    celery control pool_shrink [N=1]
+|    celery control rate_limit <task_name> <rate_limit (e.g., 5/s | 5/m | 5/h)>
+|    celery control revoke [id1 [id2 [... [idN]]]]
+|    celery control shutdown 
+|    celery control terminate <signal> [id1 [id2 [... [idN]]]]
+|    celery control time_limit <task_name> <soft_secs> [hard_secs]
+
++ Utils: 
+|    celery purge
+|    celery list
+|    celery call
+|    celery result
+|    celery migrate
+|    celery graph
+|    celery upgrade
+
++ Debugging: 
+|    celery report
+|    celery logtool
+---- -- - - --------- -- - -------------- --- ------------
+
+Type 'celery <command> --help' for help using a specific command.
+
+usage: celery <command> [options] 
+
+Show help screen and exit.
+
+positional arguments:
+  args
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+
+Global Options:
+  -A APP, --app APP
+  -b BROKER, --broker BROKER
+  --result-backend RESULT_BACKEND
+  --loader LOADER
+  --config CONFIG
+  --workdir WORKDIR
+  --no-color, -C
+  --quiet, -q
+
+---- -- - - ---- Commands- -------------- --- ------------
+
++ Main: 
+|    celery worker
+|    celery events
+|    celery beat
+|    celery shell
+|    celery multi
+|    celery amqp
+
++ Remote Control: 
+|    celery status
+ 
+|    celery inspect --help
+|    celery inspect active 
+|    celery inspect active_queues 
+|    celery inspect clock 
+|    celery inspect conf [include_defaults=False]
+|    celery inspect memdump [n_samples=10]
+|    celery inspect memsample 
+|    celery inspect objgraph [object_type=Request] [num=200 [max_depth=10]]
+|    celery inspect ping 
+|    celery inspect query_task [id1 [id2 [... [idN]]]]
+|    celery inspect registered [attr1 [attr2 [... [attrN]]]]
+|    celery inspect report 
+|    celery inspect reserved 
+|    celery inspect revoked 
+|    celery inspect scheduled 
+|    celery inspect stats 
+ 
+|    celery control --help
+|    celery control add_consumer <queue> [exchange [type [routing_key]]]
+|    celery control autoscale [max [min]]
+|    celery control cancel_consumer <queue>
+|    celery control disable_events 
+|    celery control election 
+|    celery control enable_events 
+|    celery control heartbeat 
+|    celery control pool_grow [N=1]
+|    celery control pool_restart 
+|    celery control pool_shrink [N=1]
+|    celery control rate_limit <task_name> <rate_limit (e.g., 5/s | 5/m | 5/h)>
+|    celery control revoke [id1 [id2 [... [idN]]]]
+|    celery control shutdown 
+|    celery control terminate <signal> [id1 [id2 [... [idN]]]]
+|    celery control time_limit <task_name> <soft_secs> [hard_secs]
+
++ Utils: 
+|    celery purge
+|    celery list
+|    celery call
+|    celery result
+|    celery migrate
+|    celery graph
+|    celery upgrade
+
++ Debugging: 
+|    celery report
+|    celery logtool
+---- -- - - --------- -- - -------------- --- ------------
+
+Type 'celery <command> --help' for help using a specific command.
+
+usage: celery <command> [options] 
+
+Show help screen and exit.
+
+positional arguments:
+  args
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+
+Global Options:
+  -A APP, --app APP
+  -b BROKER, --broker BROKER
+  --result-backend RESULT_BACKEND
+  --loader LOADER
+  --config CONFIG
+  --workdir WORKDIR
+  --no-color, -C
+  --quiet, -q
+
+---- -- - - ---- Commands- -------------- --- ------------
+
++ Main: 
+|    celery worker
+|    celery events
+|    celery beat
+|    celery shell
+|    celery multi
+|    celery amqp
+
++ Remote Control: 
+|    celery status
+ 
+|    celery inspect --help
+|    celery inspect active 
+|    celery inspect active_queues 
+|    celery inspect clock 
+|    celery inspect conf [include_defaults=False]
+|    celery inspect memdump [n_samples=10]
+|    celery inspect memsample 
+|    celery inspect objgraph [object_type=Request] [num=200 [max_depth=10]]
+|    celery inspect ping 
+|    celery inspect query_task [id1 [id2 [... [idN]]]]
+|    celery inspect registered [attr1 [attr2 [... [attrN]]]]
+|    celery inspect report 
+|    celery inspect reserved 
+|    celery inspect revoked 
+|    celery inspect scheduled 
+|    celery inspect stats 
+ 
+|    celery control --help
+|    celery control add_consumer <queue> [exchange [type [routing_key]]]
+|    celery control autoscale [max [min]]
+|    celery control cancel_consumer <queue>
+|    celery control disable_events 
+|    celery control election 
+|    celery control enable_events 
+|    celery control heartbeat 
+|    celery control pool_grow [N=1]
+|    celery control pool_restart 
+|    celery control pool_shrink [N=1]
+|    celery control rate_limit <task_name> <rate_limit (e.g., 5/s | 5/m | 5/h)>
+|    celery control revoke [id1 [id2 [... [idN]]]]
+|    celery control shutdown 
+|    celery control terminate <signal> [id1 [id2 [... [idN]]]]
+|    celery control time_limit <task_name> <soft_secs> [hard_secs]
+
++ Utils: 
+|    celery purge
+|    celery list
+|    celery call
+|    celery result
+|    celery migrate
+|    celery graph
+|    celery upgrade
+
++ Debugging: 
+|    celery report
+|    celery logtool
+---- -- - - --------- -- - -------------- --- ------------
+
+Type 'celery <command> --help' for help using a specific command.
+
+usage: celery <command> [options] 
+
+Show help screen and exit.
+
+positional arguments:
+  args
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+
+Global Options:
+  -A APP, --app APP
+  -b BROKER, --broker BROKER
+  --result-backend RESULT_BACKEND
+  --loader LOADER
+  --config CONFIG
+  --workdir WORKDIR
+  --no-color, -C
+  --quiet, -q
+
+---- -- - - ---- Commands- -------------- --- ------------
+
++ Main: 
+|    celery worker
+|    celery events
+|    celery beat
+|    celery shell
+|    celery multi
+|    celery amqp
+
++ Remote Control: 
+|    celery status
+ 
+|    celery inspect --help
+|    celery inspect active 
+|    celery inspect active_queues 
+|    celery inspect clock 
+|    celery inspect conf [include_defaults=False]
+|    celery inspect memdump [n_samples=10]
+|    celery inspect memsample 
+|    celery inspect objgraph [object_type=Request] [num=200 [max_depth=10]]
+|    celery inspect ping 
+|    celery inspect query_task [id1 [id2 [... [idN]]]]
+|    celery inspect registered [attr1 [attr2 [... [attrN]]]]
+|    celery inspect report 
+|    celery inspect reserved 
+|    celery inspect revoked 
+|    celery inspect scheduled 
+|    celery inspect stats 
+ 
+|    celery control --help
+|    celery control add_consumer <queue> [exchange [type [routing_key]]]
+|    celery control autoscale [max [min]]
+|    celery control cancel_consumer <queue>
+|    celery control disable_events 
+|    celery control election 
+|    celery control enable_events 
+|    celery control heartbeat 
+|    celery control pool_grow [N=1]
+|    celery control pool_restart 
+|    celery control pool_shrink [N=1]
+|    celery control rate_limit <task_name> <rate_limit (e.g., 5/s | 5/m | 5/h)>
+|    celery control revoke [id1 [id2 [... [idN]]]]
+|    celery control shutdown 
+|    celery control terminate <signal> [id1 [id2 [... [idN]]]]
+|    celery control time_limit <task_name> <soft_secs> [hard_secs]
+
++ Utils: 
+|    celery purge
+|    celery list
+|    celery call
+|    celery result
+|    celery migrate
+|    celery graph
+|    celery upgrade
+
++ Debugging: 
+|    celery report
+|    celery logtool
+---- -- - - --------- -- - -------------- --- ------------
+
+Type 'celery <command> --help' for help using a specific command.
+
+WARNING: This will remove all tasks from queue: celery.
+         There is no undo for this operation!
+
+(to skip this prompt use the -f option)
+
+Are you sure you want to delete all tasks (yes/NO)?  
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 10:53:55
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7f2bb7de0340
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.send_mail_task
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 11:12:41
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7f29084c7310
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.send_mail_task
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 11:18:02
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7fea1c5cc310
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.send_mail_task
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 11:23:46
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7fd7bd5e5310
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.send_mail_task
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 11:24:16
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7f99969e8310
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.send_mail_task
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 11:35:00
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7f507f56b2e0
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.send_mail_task
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 11:36:43
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7f336b2d3310
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.send_mail_task
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 11:38:23
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7f1103db52e0
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.send_mail_task
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 11:41:29
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7f27c5750310
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.send_mail_task
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 11:42:22
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7f6a38de3310
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.send_mail_task
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 11:47:28
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7f438f0422e0
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.send_mail_task
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 12:23:29
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7f6a01522fd0
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.send_mail_task
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 12:34:25
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7fb2c396ef40
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.send_mail_task
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 13:53:48
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7f64c8d41ee0
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
+resending 86
+resending 87
+resending 88
+resending 89
+86
+87
+88
+89
+ 
+ -------------- celery@kanishk-XPS v4.4.1 (cliffs)
+--- ***** ----- 
+-- ******* ---- Linux-5.4.0-29-generic-x86_64-with-glibc2.29 2020-06-10 14:00:20
+- *** --- * --- 
+- ** ---------- [config]
+- ** ---------- .> app:         try_celery:0x7f5086e6aee0
+- ** ---------- .> transport:   redis://localhost:6379//
+- ** ---------- .> results:     redis://localhost:6379/
+- *** --- * --- .> concurrency: 8 (prefork)
+-- ******* ---- .> task events: OFF (enable -E to monitor tasks in this worker)
+--- ***** ----- 
+ -------------- [queues]
+                .> celery           exchange=celery(direct) key=celery
+                
+
+[tasks]
+  . try_app.task.simple_task
+  . try_celery.celery.debug_task
+
